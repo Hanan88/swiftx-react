@@ -6,7 +6,8 @@ const CartCard = styled.div`
 	align-items: center;
 
 	img {
-		max-width: 35%;
+		// max-width: 40%;
+		height: 150px
 	}
 `;
 
@@ -42,7 +43,8 @@ const QuantityContainer = styled.div`
 		background: #fff;
 		border: 1px solid #6e6c6c;
 		border-radius: 3px;
-		padding: 20px;
+		padding: 5px;
+		margin: 15px 5px;
 		color: #6e6c6c;
 		cursor: pointer;
 	}
@@ -57,6 +59,7 @@ const AttributesContainer = styled.div`
 	align-items: center;
 	margin-inline-start: -5px;
 	margin-block: 15px;
+	
 `;
 
 const CartContainer = styled.div`
@@ -68,15 +71,16 @@ const CartContainer = styled.div`
 	right: 0;
 	max-width: 350px;
 	border: 1px solid;
+	
 
-	h3 {
-		margin-block: 5px 20px;
+	h4 {
+		margin: 15px 0px;
 	}
 	h5 {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		margin-block: 10px;
+		margin-block: 15px 0;
 	}
 `;
 
@@ -85,6 +89,7 @@ const ActionsContainer = styled.div`
 	justify-content: space-between;
 	align-items: center;
 	margin-block: 10px;
+	
 
 	button {
 		padding: 10px 30px;
@@ -112,7 +117,7 @@ const AttribButton = styled.button`
 		props.isSelected ? '#000' : props.isColor ? props.color : '#fff'};
 	color: ${(props) => (props.isSelected ? '#fff' : '#6e6c6c')};
 	border: 1px solid #6e6c6c;
-	padding: 20px;
+	padding: 10px;
 	margin-inline: 5px;
 	border-radius: 3px;
 `;

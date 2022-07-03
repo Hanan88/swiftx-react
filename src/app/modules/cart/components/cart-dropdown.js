@@ -33,9 +33,9 @@ const CartDropdown = ({ closeCart }) => {
 
 	return (
 		<CartContainer ref={dropDownRef}>
-			<h3 style={{ marginBlock: '5px 20px' }}>
+			<h2 style={{ marginBlock: '5px 20px' }}>
 				<b>My Bag</b>: <span>{cartQuantity} items</span>
-			</h3>
+			</h2>
 			<CartProductsList />
 			<h5>
 				<span>Total</span>

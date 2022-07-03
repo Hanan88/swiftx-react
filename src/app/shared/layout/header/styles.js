@@ -24,11 +24,10 @@ const FiltersContainer = styled.div`
 	}
 `;
 
-// const ItemList = styled.li`
-//     list-style: none;
-//     float: left;
-//     margin-right: 30px;
-// `;
+const Select = styled.select`
+    border: none;
+    font-size: 15px;
+`;
 
 const Width = styled.div`
 	width: 125px;
@@ -74,4 +73,5 @@ export {
 	CartQuantity,
 	CartButton,
 	QueryNavLink,
+	Select
 };

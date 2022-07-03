@@ -24,7 +24,7 @@ const Header = () => {
 	const [isCartShown, setIsCartShown] = useState(false);
 	const cartQuantity = useSelector((state) => state.cart.cart.length);
 	return (
-		<div className="container">
+		<>
 			<BarApp>
 				<FiltersContainer>
 					{data &&
@@ -53,7 +53,7 @@ const Header = () => {
 					)}
 				</Width>
 			</BarApp>
-		</div>
+		</>
 	);
 };
 

@@ -1,4 +1,5 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
+// import styled from 'styled-components';
 
 export default createGlobalStyle`
    *{
@@ -17,10 +18,19 @@ export default createGlobalStyle`
     }
     a:hover{
         color: #52D67A;
-        border-bottom: 1px solid #52D67A
+        border-bottom: 1px solid #52D67A;
+        text-decoration: none;
+
     }
     
     .shoppingCart{
         top: 70%;
         right: 5%;
     }`;
+
+const Container = styled.div`
+  width: 1500px;
+  margin: 0 auto;
+`;
+
+export { Container };

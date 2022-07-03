@@ -12,7 +12,7 @@ const ProductsCardContainer = styled.div`
 	img {
 		margin-inline: auto;
 		display: block;
-		width: -webkit-fill-available;
+		// width: -webkit-fill-available;
 		max-height: 250px;
 	}
 	h4 {
@@ -20,9 +20,11 @@ const ProductsCardContainer = styled.div`
 		font-size: 18px;
 		color: #69625f;
 		font-weight: 300;
+		padding: 5px 10px
 	}
 	h5 {
 		color: #000;
+		padding: 5px 10px
 	}
 
 	&:hover {
@@ -32,10 +34,7 @@ const ProductsCardContainer = styled.div`
 
 		button {
 			display: block;
-		}
-		h5 {
-			color: yellow;
-		}
+		} 
 	}
 `;
 
@@ -48,7 +47,7 @@ const ShippingCart = styled.button`
 	color: white;
 	border-radius: 50%;
 	font-size: 30px;
-	right: 80px;
+	right: 50px;
 	top: 225px;
 	height: 50px;
 	width: 50px;

@@ -26,12 +26,11 @@ const CartProductCard = ({ product }) => {
 		<CartCard>
 			<div>
 				<CartCardDetails>
-					<h3>{product.name}</h3>
-					<h4>{product.brand}</h4>
-					<h5>
+					<h4>{product.name}</h4>
+					<span>
 						{selectedCurrency}
 						{productPrice}
-					</h5>
+					</span>
 					<AttributesContainer>
 						{Object.entries(product.attributes).map(([key, value]) => (
 							<AttribButton key={key}>{value}</AttribButton>

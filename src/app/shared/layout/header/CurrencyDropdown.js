@@ -5,6 +5,7 @@ import { useQuery } from '@apollo/client';
 import { ALL_CURRENCY } from '../../../../apollo/query/currencies';
 import { useDispatch } from 'react-redux';
 import { setSelectedCurrency } from '../../../modules/cart/redux/cart.slice';
+import { Select } from './styles';
 
 const CurrencyDropdown = () => {
 	const { data } = useQuery(ALL_CURRENCY);
@@ -14,7 +15,7 @@ const CurrencyDropdown = () => {
 	};
 	return (
 		<>
-			<select
+			<Select
 				className="form-select float-start border-0 w-75"
 				aria-label="Default select example"
 				onChange={(e) => updateCurrency(e.target.value)}
@@ -26,7 +27,7 @@ const CurrencyDropdown = () => {
 							</option>
 					  ))
 					: null}
-			</select>
+			</Select>
 		</>
 	);
 };
