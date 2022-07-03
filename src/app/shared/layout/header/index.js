@@ -14,7 +14,7 @@ import CurrencyDropdown from './CurrencyDropdown';
 import { useQuery } from '@apollo/client';
 import { ALL_CATEGORIES } from '../../../../apollo/query/products';
 import { useSelector } from 'react-redux';
-import CartDropdown from './../../../modules/cart/components/cart-dropdown';
+import CartDropdown from '../../../modules/cart/components/CartDropdown';
 import { useSearchParams } from 'react-router-dom';
 
 const Header = () => {

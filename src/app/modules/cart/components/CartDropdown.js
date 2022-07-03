@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import { useSelector } from 'react-redux';
 import { CartContainer, ActionsContainer } from '../styles';
-import CartProductsList from './cart-products-list';
+import CartProductsList from './CartProductsList';
 import { useNavigate } from 'react-router-dom';
 import { PropTypes } from 'prop-types';
 

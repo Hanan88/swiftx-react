@@ -4,6 +4,10 @@ const CartCard = styled.div`
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	// width: 70%;
+	margin: 0 auto;
+	padding: 10px 0 ;
+	border-bottom: 1px solid #ddd;
 
 	img {
 		// max-width: 40%;
@@ -70,7 +74,6 @@ const CartContainer = styled.div`
 	top: 32px;
 	right: 0;
 	max-width: 350px;
-	border: 1px solid;
 	
 
 	h4 {

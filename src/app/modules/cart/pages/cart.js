@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { SectionTitle } from '../../products/styles';
-import CartProductsList from '../components/cart-products-list';
+import CartProductsList from '../components/CartProductsList';
 
 const Cart = () => {
 	const cartTotal = useSelector((state) => state.cart.cartTotal);

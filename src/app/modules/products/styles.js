@@ -113,6 +113,7 @@ const SectionTitle = styled.h4`
 	margin-block: 5px;
 	font-weight: 600;
 	font-size: 18px;
+	margin-left: 15%;
 `;
 
 const SuccessButton = styled.button`
